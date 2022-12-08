@@ -1,0 +1,77 @@
+.header {
+    width: 75%;
+    margin:0 auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid var(--header-outline);
+    padding: 0.5rem 1rem;
+}
+
+.logo {
+    padding: 0.8rem 0;
+    width: 95px;
+    height: 85px;
+}
+
+.score{
+    background-color: var(--bg-score);
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+}
+
+.score h3{
+    color: var(--score-text);
+    font-size: 12px;
+    letter-spacing: .1rem;
+    font-family: "barlow600";
+}
+
+.score h4{
+    color: var(--dark-text);
+    font-size: 45px;
+    font-family: "barlow700";
+}
+
+
+@media screen and (max-width: 578px) {
+    .header {
+        width: 90%;
+        max-width: 700px;
+    }
+    .logo {
+        padding: 0.8rem 0;
+        width: 95px;
+        height: 85px;
+    }
+    
+    .score{
+        padding: 0.5rem;
+        width: 5rem;
+    }
+}
+
+@media (min-width: 579px) and (max-width: 1366px) {
+    .header {
+        width: 50%;
+        max-width: 700px;
+    }
+    .logo {
+        padding: 0.8rem 0;
+        width: 95px;
+        height: 85px;
+    }
+    
+    .score{
+        padding: 0.5rem;
+        width: 6rem;
+    }
+}
+

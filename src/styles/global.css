@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "barlow700";
+  src: url("../../public/fonts/Barlow-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "barlow600";
+  src: url("../../public/fonts/Barlow-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "barlow";
+  src: url("../../public/fonts/Barlow-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+:root{
+  --bg-gradient: linear-gradient(180deg, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+
+  --dark-text: hsl(229, 25%, 31%);
+  --score-text: hsl(229, 64%, 46%);
+  --header-outline: hsl(217, 16%, 45%);
+
+  --text: hsl(180deg 100% 99%);
+  --bg-score: hsl(0deg 0% 98%);
+
+  --bg-shadow-pick: hsl(220deg 47% 18%);
+
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+html,body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+body{ 
+  width: 100%;
+  height: 100%;
+  background: var(--bg-gradient);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

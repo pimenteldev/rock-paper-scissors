@@ -1,0 +1,462 @@
+.content_final{
+    width: 80%;
+    height: 180px;
+    margin:0 auto;
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn_paper_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(230, 89%, 62%);
+}
+
+.btn_paper_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem solid #5671f560;
+}
+
+.btn_scissors_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(40, 84%, 53%);
+    
+}
+
+.btn_scissors_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem #ec9e0e60;
+    border-style: solid;
+}
+
+.btn_rock_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid rgb(220, 46, 78);
+}
+
+.btn_rock_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem #dd405d60;
+    border-style: solid ;
+}
+
+.you_picked_final{
+    position: absolute;
+    margin: 40px 160px 0 0;
+    color: var(--text);
+    font-size: 14px;
+    font-family: "barlow700";
+}
+
+.house_picked_final{
+    position: absolute;
+    margin: 40px 0 0 160px;
+    color: var(--text);
+    font-size: 14px;
+    font-family: "barlow700";
+}
+
+.btn_house_paper_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(230, 89%, 62%);
+}
+
+.btn_house_paper_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    z-index: 9;
+    border: 0.8rem solid #5671f560;
+}
+
+.btn_house_scissors_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(40, 84%, 53%);
+    
+}
+
+.btn_house_scissors_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    z-index: 9;
+    border-radius: 50%;
+    border: 0.8rem #ec9e0e60;
+    border-style: solid;
+}
+
+.btn_house_rock_final {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 9;
+    border: .8rem solid rgb(220, 46, 78);
+}
+
+.btn_house_rock_final::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    z-index: 99;
+    border-radius: 50%;
+    border: 0.8rem #dd405d60;
+    border-style: solid ;
+}
+
+.btn_winner{
+    background-color: #ffffff2d;
+    position: absolute;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 106px #19274852;
+    border-style: solid;
+}
+
+.btn_winner::after{
+    content: '';
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: -135px;
+    bottom: 0;
+    left: -135px;
+    right: 0;
+    border-radius: 50%;
+    border: 141px #f1f1f10f;
+    border-style: solid;
+}
+
+.btn_winner::before{
+    content: '';
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: -66px;
+    bottom: 0;
+    left: -66px;
+    right: 0;
+    border-radius: 50%;
+    border: 72px #ffffff38;
+    border-style: solid;
+}
+
+.btn_winner_house{
+    background-color: #ffffff2d;
+    position: absolute;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border: 106px #19274852;
+    border-style: solid;
+}
+
+.btn_winner_house::after{
+    content: '';
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: -135px;
+    bottom: 0;
+    left: -135px;
+    right: 0;
+    border-radius: 50%;
+    border: 141px #f1f1f10f;
+    border-style: solid;
+}
+
+.btn_winner_house::before{
+    content: '';
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top: -66px;
+    bottom: 0;
+    left: -66px;
+    right: 0;
+    border-radius: 50%;
+    border: 72px #ffffff38;
+    border-style: solid;
+}
+
+@media screen and (max-width: 578px) {
+
+}
+
+@media (min-width: 579px) and (max-width: 1366px) {
+    .content_final{
+        width: 80%;
+        max-width: 700px;
+        height: 280px;
+        margin:0 auto;
+        margin-top: 100px;
+    }
+
+    .you_picked_final{
+        position: absolute;
+        margin: -270px 400px 0 0;
+        color: var(--text);
+        font-size: 18px;
+        font-family: "barlow700"
+    }
+    
+    .house_picked_final{
+        position: absolute;
+        margin: -270px -400px 0 0;
+        color: var(--text);
+        font-size: 18px;
+        font-family: "barlow700"
+    }
+    .btn_paper_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px 400px 0px 0px;
+        border: 1.3rem solid hsl(230, 89%, 62%);
+    }
+
+    .btn_paper_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #5671f560;
+    }
+
+    .btn_scissors_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px 400px 0px 0px;
+        border: 1.3rem solid hsl(40, 84%, 53%);
+    }
+    
+    .btn_scissors_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #ec9e0e60;
+    }
+
+    .btn_rock_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px 400px 0px 0px;
+        border: 1.3rem solid rgb(220, 46, 78);
+    }
+    
+    .btn_rock_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #dd405d60;
+    }
+
+    /* 
+        HOUSE
+    */
+
+    .btn_house_paper_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px -400px 0px 0px;
+        border: 1.3rem solid hsl(230, 89%, 62%);
+    }
+    
+    .btn_house_paper_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #5671f560;
+    }
+    
+    .btn_house_scissors_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px -400px 0px 0px;
+        border: 1.3rem solid hsl(40, 84%, 53%);
+        
+    }
+    
+    .btn_house_scissors_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #ec9e0e60;
+    }
+    
+    .btn_house_rock_final {
+        width: 200px;
+        height: 200px;
+        margin: 0px -400px 0px 0px;
+        border: 1.3rem solid rgb(220, 46, 78);
+    }
+    
+    .btn_house_rock_final::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #dd405d60;
+    }
+
+
+
+    .btn_winner{
+        background-color: #ffffff2d;
+        position: absolute;
+        margin: 0px 400px 0px 0px;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        border: 84px solid #19274852;
+        border-style: solid;
+    }
+
+    .btn_winner::after{
+        content: '';
+        width: 75%;
+        height: 75%;
+        position: absolute;
+        top: -120px;
+        bottom: 0;
+        left: -120px;
+        right: 0;
+        border-radius: 50%;
+        border: 140px #f1f1f10f;
+        border-style: solid;
+    }
+    
+    .btn_winner::before{
+        content: '';
+        width: 75%;
+        height: 75%;
+        position: absolute;
+        top: -55px;
+        bottom: 0;
+        left: -55px;
+        right: 0;
+        border-radius: 50%;
+        border: 73px #ffffff38;
+        border-style: solid;
+    }
+    
+    .btn_winner_house{
+        background-color: #ffffff2d;
+        position: absolute;
+        margin: 0px -400px 0px 0px;
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        border: 84px solid #19274852;
+        border-style: solid;
+    }
+    
+    .btn_winner_house::after{
+        content: '';
+        width: 75%;
+        height: 75%;
+        position: absolute;
+        top: -120px;
+        bottom: 0;
+        left: -120px;
+        right: 0;
+        border-radius: 50%;
+        border: 140px #f1f1f10f;
+        border-style: solid;
+    }
+    
+    .btn_winner_house::before{
+        content: '';
+        width: 75%;
+        height: 75%;
+        position: absolute;
+        top: -55px;
+        bottom: 0;
+        left: -55px;
+        right: 0;
+        border-radius: 50%;
+        border: 73px #ffffff38;
+        border-style: solid;
+    }
+
+}

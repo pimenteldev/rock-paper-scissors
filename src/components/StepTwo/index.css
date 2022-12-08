@@ -1,0 +1,319 @@
+.content_two{
+    width: 200px;
+    height: 180px;
+    margin:0 auto;
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_paper_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(230, 89%, 62%);
+}
+
+.btn_paper_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem solid #5671f560;
+}
+
+.btn_scissors_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(40, 84%, 53%);
+    
+}
+
+.btn_scissors_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem #ec9e0e60;
+    border-style: solid;
+}
+
+.btn_rock_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px 160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid rgb(220, 46, 78);
+}
+
+.btn_rock_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    border: 0.8rem #dd405d60;
+    border-style: solid ;
+}
+
+.shadow_pick {
+    position: absolute;
+    background-color: var(--bg-shadow-pick);
+    width: 120px;
+    height: 120px;
+    margin: 0px 0px 160px 160px;
+    border-radius: 50%;
+    border: 0rem solid ;
+}
+
+.you_picked{
+    position: absolute;
+    margin: 40px 160px 0 0;
+    color: var(--text);
+    font-size: 14px;
+    font-family: "barlow700";
+}
+
+.house_picked{
+    position: absolute;
+    margin: 40px 0 0 160px;
+    color: var(--text);
+    font-size: 14px;
+    font-family: "barlow700";
+}
+
+.btn_house_paper_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(230, 89%, 62%);
+}
+
+.btn_house_paper_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    border-radius: 50%;
+    z-index: 9;
+    border: 0.8rem solid #5671f560;
+}
+
+.btn_house_scissors_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 99;
+    border: .8rem solid hsl(40, 84%, 53%);
+    
+}
+
+.btn_house_scissors_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    z-index: 9;
+    border-radius: 50%;
+    border: 0.8rem #ec9e0e60;
+    border-style: solid;
+}
+
+.btn_house_rock_two {
+    position: absolute;
+    background-color: var(--bg-score);
+    width: 120px;
+    height: 120px;
+    margin: 0px -160px 160px 0px;
+    border-radius: 50%;
+    z-index: 9;
+    border: .8rem solid rgb(220, 46, 78);
+}
+
+.btn_house_rock_two::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -8px;
+    bottom: 0;
+    left: -14px;
+    right: 0;
+    z-index: 99;
+    border-radius: 50%;
+    border: 0.8rem #dd405d60;
+    border-style: solid ;
+}
+
+@media screen and (max-width: 578px) {
+
+}
+
+@media (min-width: 579px) and (max-width: 1366px) {
+    .content_two{
+        width: 80%;
+        height: 280px;
+        margin:0 auto;
+        margin-top: 100px;
+    }
+
+    .you_picked{
+        position: absolute;
+        margin: -270px 300px 0 0;
+        color: var(--text);
+        font-size: 18px;
+        font-family: "barlow700"
+    }
+    
+    .house_picked{
+        position: absolute;
+        margin: -270px -300px 0 0;
+        color: var(--text);
+        font-size: 18px;
+        font-family: "barlow700"
+    }
+
+    .shadow_pick {
+        width: 200px;
+        height: 200px;
+        margin: 0px -300px 0px 0px;
+    }
+
+    .btn_paper_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px 300px 0px 0px;
+        border: 1.3rem solid hsl(230, 89%, 62%);
+    }
+
+    .btn_paper_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #5671f560;
+    }
+
+    .btn_scissors_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px 300px 0px 0px;
+        border: 1.3rem solid hsl(40, 84%, 53%);
+    }
+    
+    .btn_scissors_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #ec9e0e60;
+    }
+
+    .btn_rock_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px 300px 0px 0px;
+        border: 1.3rem solid rgb(220, 46, 78);
+    }
+    
+    .btn_rock_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #dd405d60;
+    }
+
+    /* 
+        HOUSE
+    */
+
+    .btn_house_paper_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px -300px 0px 0px;
+        border: 1.3rem solid hsl(230, 89%, 62%);
+    }
+    
+    .btn_house_paper_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #5671f560;
+    }
+    
+    .btn_house_scissors_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px -300px 0px 0px;
+        border: 1.3rem solid hsl(40, 84%, 53%);
+        
+    }
+    
+    .btn_house_scissors_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #ec9e0e60;
+    }
+    
+    .btn_house_rock_two {
+        width: 200px;
+        height: 200px;
+        margin: 0px -300px 0px 0px;
+        border: 1.3rem solid rgb(220, 46, 78);
+    }
+    
+    .btn_house_rock_two::before {
+        top: -8px;
+        bottom: 0;
+        left: -20px;
+        right: 0;
+        border: 1.2rem solid #dd405d60;
+    }
+
+}

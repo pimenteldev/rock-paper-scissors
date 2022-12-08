@@ -1,0 +1,36 @@
+.rules {
+    width: 150px;
+    margin:0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 3px solid var(--header-outline);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color:var(--text);
+    font-family: "barlow600";
+    letter-spacing: .2rem;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 578px) {
+    .rules {
+        margin:0 auto;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 579px) and (max-width: 1366px) {
+    .rules {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        width: 150px;
+        justify-items: flex-end;
+        
+    }
+}
